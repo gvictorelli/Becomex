@@ -4,7 +4,7 @@ namespace Robo.States.Cotovelo
 {
     public class EmRepouso : EstadoDeUmCotovelo
     {
-        private static string ERROR_MESSAGE = "Sitema Corrompido";
+        private static string ERROR_MESSAGE = "Sistema Corrompido";
         public void Contraido(RoboCotovelo.Cotovelo cotovelo)
         {
             throw new Exception(ERROR_MESSAGE);

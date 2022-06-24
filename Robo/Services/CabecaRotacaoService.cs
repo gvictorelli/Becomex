@@ -40,7 +40,7 @@ namespace Robo.Services
             cabecaRotacao.RealizaMovimentoMenos90Graus();
         }
 
-        private void ValidaInclinacaoCabeca()
+        public void ValidaInclinacaoCabeca()
         {
             if (cabecaInclinacao.Descricao == "ParaBaixo")
                 throw new Exception("Só poderá Rotacionar a Cabeça caso sua Inclinação da Cabeça não esteja em estado Para Baixo!");

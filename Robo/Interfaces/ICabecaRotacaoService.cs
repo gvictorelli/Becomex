@@ -7,5 +7,6 @@
         void MovimentoMenos90Graus();
         void Movimento45Graus();
         void Movimento90Graus();
+        void ValidaInclinacaoCabeca();
     }
 }
